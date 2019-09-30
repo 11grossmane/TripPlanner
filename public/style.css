@@ -1,0 +1,42 @@
+#navbar {
+  width: 100vw;
+  height: 15vh;
+  background-color: rebeccapurple;
+}
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 85vh;
+}
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+}
+
+.activity-boxes {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  background-color: coral;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px black solid;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100%;
+  width: 75%;
+}
